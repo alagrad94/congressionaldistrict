@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Article tag that serves as your main representative component -->
+    <article class="rep">
+        <!-- Sub-component of rep that contains basic information about rep. -->
+        <section class="rep__info">
+            <!--Sub-component of rep that contains rep picture -->
+            <img class="rep__info-img" src="https://www.govtrack.us/data/photos/412394-200px.jpeg" alt="Martha Roby">
+            <!--Sub-component of rep that contains rep name -->
+            <div class="rep__info-name">Martha Roby</div>
+            <!--Sub-component of rep that contains rep district -->
+            <div class="rep__info-district">Alabama’s 2nd congressional district.</div>
+            <!--Sub-component of rep that contains rep party -->
+            <div class="rep__info-party">Republican</div>
+        </section>
+       <!--Sub-component of rep that contains rep's committees -->
+        <section class="rep__com">
+            <ul>
+                <!--List of rep committees with sub-lists for subcommittees  -->
+                <li>House Committee on Appropriations</li>
+                    <ul class="rep__com-subcom">
+                        <li>Subcommittee on Commerce, Justice, Science, and Related Agencies</li>
+                        <li>Subcommittee on Defense</li>
+                        <li>Subcommittee on Labor, Health and Human Services, Education, and Related Agencies</li>
+                    </ul>
+                <li>House Committee on the Judiciary</li>
+                    <ul class="rep__com-subcom">
+                        <li>Subcommittee on Crime, Terrorism, Homeland Security, and Investigations</li>
+                    </ul>
+            </ul>
+        </section>
+        <!--Sub-component of rep that contains legislation enacted by rep -->
+        <section class="rep__leg">
+            <ul>
+                <li>Enacted Legislation</li>
+                    <ul class="rep__leg-enacted">
+                        <li><a href="https://www.govtrack.us/congress/bills/113/hr349">
+                            H.R. 349 (113th): Preserving Marginal Lands and Protecting Farming Act of 2013</a></li>
+                    </ul>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
